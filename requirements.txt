@@ -1,5 +1,12 @@
-opencv-python
-mediapipe
-pyautogui
-numpy
-pynput
+# Hand Tracking Mouse Controller - Dependencies
+# Install with: pip install -r requirements.txt
+
+# Core dependencies
+opencv-python>=4.5.0
+mediapipe>=0.10.0
+pyautogui>=0.9.50
+numpy>=1.20.0
+pynput>=1.7.0
+
+# Note: On Windows, winsound is built-in (no install needed)
+# Note: On Linux, you may need: sudo apt install python3-tk scrot

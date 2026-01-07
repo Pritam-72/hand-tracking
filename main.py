@@ -12,7 +12,7 @@ Gestures:
 
 Requirements:
     pip install opencv-python mediapipe pyautogui numpy pynput
-
+           
 Usage:
     python main.py
     Press 'q' to quit

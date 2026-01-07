@@ -1,0 +1,40 @@
+{
+    "camera": {
+        "index": 0,
+        "width": 640,
+        "height": 480
+    },
+    "detection": {
+        "min_detection_confidence": 0.6,
+        "min_tracking_confidence": 0.6,
+        "max_num_hands": 1
+    },
+    "cursor": {
+        "smoothing_factor": 0.7,
+        "frame_reduction": 80
+    },
+    "gestures": {
+        "pinch_threshold": 50,
+        "double_pinch_time": 0.6,
+        "drag_hold_time": 0.3,
+        "scroll_sensitivity": 5.0,
+        "fist_threshold": 3
+    },
+    "cooldowns": {
+        "click": 0.5,
+        "double_click": 0.7,
+        "screenshot": 1.5,
+        "scroll": 0.08
+    },
+    "feedback": {
+        "enable_sound": true,
+        "enable_visual": true,
+        "sound_frequency": 800,
+        "sound_duration": 100
+    },
+    "screenshots": {
+        "folder": "screenshots",
+        "format": "png",
+        "prefix": "screenshot"
+    }
+}
