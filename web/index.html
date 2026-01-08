@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="theme-color" content="#0a0a0f">
+    <title>Iron Man Gauntlet - 3D Hand Visualization</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <canvas id="handCanvas"></canvas>
+
+        <div id="status">
+            <div class="status-dot"></div>
+            <span>Connecting...</span>
+        </div>
+
+        <div id="controls">
+            <h3>⚡ GAUNTLET</h3>
+            <label>
+                <input type="checkbox" id="toggleRings" checked>
+                <span>Armor Plates</span>
+            </label>
+            <label>
+                <input type="checkbox" id="toggleOrb" checked>
+                <span>Repulsor</span>
+            </label>
+            <label>
+                <input type="checkbox" id="toggleTrails" checked>
+                <span>Energy Lines</span>
+            </label>
+            <label>
+                <input type="checkbox" id="toggleAura" checked>
+                <span>HUD Display</span>
+            </label>
+            <hr>
+            <label>
+                <span>Power Level</span>
+                <input type="range" id="glowIntensity" min="0" max="2" step="0.1" value="1">
+            </label>
+            <label>
+                <span>Suit Variant</span>
+                <select id="colorTheme">
+                    <option value="mark3">Mark III (Classic)</option>
+                    <option value="mark42">Mark 42 (Gold)</option>
+                    <option value="war_machine">War Machine</option>
+                    <option value="stealth">Stealth Mode</option>
+                    <option value="nanotech">Nanotech</option>
+                </select>
+            </label>
+        </div>
+
+        <div id="instructions">
+            <p>🦾 Show your hand to activate the gauntlet!</p>
+        </div>
+    </div>
+
+    <!-- Three.js from CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/hand-visualizer.js"></script>
+</body>
+
+</html>

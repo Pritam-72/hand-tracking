@@ -7,6 +7,7 @@ mediapipe>=0.10.0
 pyautogui>=0.9.50
 numpy>=1.20.0
 pynput>=1.7.0
+websockets>=10.0
 
 # Note: On Windows, winsound is built-in (no install needed)
 # Note: On Linux, you may need: sudo apt install python3-tk scrot
