@@ -14,20 +14,20 @@
         "frame_reduction": 80
     },
     "gestures": {
-        "pinch_threshold": 50,
+        "pinch_threshold": 55,
         "double_pinch_time": 0.6,
-        "drag_hold_time": 0.3,
+        "drag_hold_time": 0.35,
         "scroll_sensitivity": 5.0,
         "fist_threshold": 3
     },
     "cooldowns": {
-        "click": 0.5,
-        "double_click": 0.7,
+        "click": 0.25,
+        "double_click": 0.5,
         "screenshot": 1.5,
         "scroll": 0.08
     },
     "feedback": {
-        "enable_sound": true,
+        "enable_sound": false,
         "enable_visual": true,
         "sound_frequency": 800,
         "sound_duration": 100
